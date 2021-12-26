@@ -1,3 +1,6 @@
 # DIO
-Local de estudos realizados pela DIO
+Local dos aquivos de estudos realizados na DIO.
+
+HTML + CSS
+Java Script
 
