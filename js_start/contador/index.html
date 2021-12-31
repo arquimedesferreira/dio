@@ -6,11 +6,22 @@
 
 		<title>Apenas teste </title>
 		<link rel="stylesheet" href="assets/css/style.css">
+		<Up><link rel="stylesheet" href="assets/css/bootstrap.min.css" >
 	</head>
 
 	<body>
-		<h1> Home </h1>
-		<p>Esse é um projeto JS Start by DIO</p>
+		<div class="container-fluid align-items-center">
+			<div class="row "> <h1>Home do projeto </h1></div>
+		</div>
+		<div class="container-fluid ">
+			<div class="row align-items-center" >
+				<div class="col-sm ">
+					<button type="button" class="btn btn-primary" onclick="increment()" id="btn-increment">+</button>
+				</div>
+				<div class="col-sm"> <button type="button" class="btn btn-light" id="number">0</button></div>
+				<div class="col-sm"> <button type="button" class="btn btn-danger" onclick="decrement()" id="btn-decrement">-</button></div>
+			</div>
+		</div>
 		<script src="assets/js/script.js"></script>
 	</body>
 </html>
