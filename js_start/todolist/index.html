@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Todo List </title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<Up><link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+	</head>
+
+	<body>
+		<div class="container-fluid align-items-center">
+			<div class="row "> <h1>Home do TodoList </h1></div>
+			<div class="row"> </div>
+		</div>
+		<div class="container-fluid ">
+			<div class="row align-items-center" >
+
+				<div class="input-group mb-4">
+  					<input type="text" class="form-control" id="textodo" placeholder="O que deve ser realizado " aria-label="O que deve ser realizado" aria-describedby="basic-addon2">
+  					<div class="input-group-append">
+    						<button class="btn btn-outline-secondary" onclick="addtodo()" type="button">Add </button>
+  					</div>
+				</div>
+								
+			</div>
+
+			<div class="row align-items-center">
+				<ul id="listTodo">
+					<li>I Um</li>
+					<li>II Dois</li>
+				</ul> 
+			</div>
+
+			<dl>
+
+				<label class="container">
+					<input type="checkbox" checked="checked">
+  					<span class="checkmark"></span>
+				One
+				</label>
+		</div>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
